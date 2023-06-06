@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Text } from 'react-native';
-import Form from './src/screens/form'
+import Map from './src/screens/map'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Form />
+      <Map />
       
       {/* <StatusBar style="auto" /> */}
     </View>
